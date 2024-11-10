@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Information App</title>
+    <link rel="stylesheet" href="SI_05.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Movie Information App</h1>
+
+      <!-- Search bar -->
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for a movie (e.g., Batman, PK, Conjuring)"
+        />
+        <button onclick="searchMovies()">Search</button>
+      </div>
+
+      <!-- Movie Display Container -->
+      <div id="moviesContainer" class="movies-container"></div>
+
+      <!-- Watchlist -->
+      <div id="watchlistContainer" class="watchlist-container">
+        <h2>Your Watchlist</h2>
+        <ul id="watchlist"></ul>
+      </div>
+    </div>
+    <script src="SI_05.js"></script>
+  </body>
+</html>
